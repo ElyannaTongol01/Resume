@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .left-side {
+            width: 40%;
+            background-color: #ffcccc;
+            padding: 20px;
+        }
+
+        .right-side {
+            width: 60%;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff99cc;
+        }
+
+        .profile h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .section-title {
+            font-size: 20px;
+            color: #ff99cc;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .content-item {
+            margin-bottom: 15px;
+        }
+
+        .content-item h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .content-item p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .content-item ul {
+            padding-left: 20px;
+        }
+
+        .content-item ul li {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .contact-info i {
+            margin-right: 5px;
+            color: #ff99cc;
+        }
+
+        .progress-bar {
+            background-color: #f0f0f0;
+            border-radius: 20px;
+            height: 20px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+        }
+
+        .progress-html {
+            background-color: #ff99cc;
+            width: 90%;
+        }
+
+        .progress-css {
+            background-color: #ff99cc;
+            width: 80%;
+        }
+
+        .progress-js {
+            background-color: #ff99cc;
+            width: 70%;
+        }
+
+        .references p {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* New CSS for the image box */
+        .image-box {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff99cc;
+        }
+
+        /* New CSS for name and designation */
+        .name-designation {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .name-designation h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .name-designation p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #666;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-side">
+        <!-- New image box -->
+        <div class="image-box">
+            <img src="1.jpg" alt="Your Image">
+        </div>
+
+        <!-- New name and designation -->
+        <div class="name-designation">
+            <h1>ELYANNA LENE L. TONGOL</h1>
+            <p>IT Student</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="content">
+                <div class="content-item">
+                    <p>I am a 2nd year student who has the best prior experience in socializing, communicating with other people, and teamwork.
+                        I am well-mannered and can easily adapt to different situations, and I love to play all sports.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Contact</h2>
+            <div class="content">
+                <div class="content-item contact-info">
+                    <a href=""><i class="fas fa-envelope"></i></a><p>tongol.elyannalene@gmail.com</p>
+                </div>
+                <div class="content-item contact-info">
+                    <a href=""><i class="fas fa-phone"></i></a><p>+1234567890</p>
+                </div>
+                <div class="content-item contact-info">
+                    <a href=""><i class="fas fa-map-marker-alt"></i></a><p>Address : P2 SanRoque, Panaon </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="content">
+                <div class="content-item">
+                    <p>HTML</p>
+                    <div class="progress-bar">
+                        <div class="progress-html progress"></div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <p>CSS</p>
+                    <div class="progress-bar">
+                        <div class="progress-css progress"></div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <p>JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="progress-js progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-side">
+        <div class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="content">
+                <div class="content-item">
+                    <h3>Volunteer</h3>
+                    <ul>
+                        <li>By regularly cleaning and segregating waste, you contribute to a cleaner and healthier environment for everyone in the barangay. This can reduce the risk of diseases and improve overall well-being.</li>
+                        <li>Volunteering together fosters a sense of community and teamwork. It provides an opportunity for neighbors to come together, get to know each other better, and work </li>
+                        <li>Through your efforts, you can raise awareness about the importance of waste segregation, recycling, and environmental conservation. This education can empower individuals to adopt more sustainable practices in their daily lives.</li>
+                       <li> Your actions can inspire others in the community to get involved and take similar initiatives. By leading by example, you can create a ripple effect of positive change throughout the barangay.</li>
+                    </ul>
+                
+                </div>
+                
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="content">
+                <div class="content-item">
+                    <h3> Maular Elementary school</h3>
+                    <p>2009-2016</p>
+    
+                <div class="content-item">
+                    <h3>St. Matthew's High school</h3>
+                    <p>2017-2021</p>
+                </div>
+            </div>
+            <div class="content-item">
+                <h3> USTP Oroquieta</h3>
+                <p>2024-2025</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
